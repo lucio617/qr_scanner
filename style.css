@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 20px 10px 10px 10px;
+
+  width: fit-content;
+
+  position: relative;
+  /* place-items: center; */
+
+  border: 2px solid white;
+  border-radius: 50px;
+  border-width: 5px;
+
+  transform: scale(0.5);
+  background-color: white;
+}
+.overlay-container h2 {
+  color: grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgba(185, 219, 235, 0.5);
+}
